@@ -10,7 +10,7 @@ buildscript {
     dependencies {
         classpath "com.android.tools.build:gradle:7.3.0"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
-        classpath "dev.flutter.flutter-plugin-loader:1.0.0"
+        //classpath "dev.flutter.flutter-plugin-loader:1.0.0"
     }
 }
 
@@ -22,7 +22,6 @@ allprojects {
 }
 
 apply plugin: 'com.android.application'
-apply plugin: 'dev.flutter.flutter-plugin-loader:1.0.0'
 
 def localPropertiesFile = new File(rootProject.projectDir, "local.properties")
 def properties = new Properties()

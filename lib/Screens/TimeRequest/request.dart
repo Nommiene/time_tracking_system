@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:get/get.dart';
 
-//import 'package:myapp/utils.dart';
 class Request extends StatefulWidget {
   @override
   _RequestState createState() => _RequestState();
@@ -19,7 +17,6 @@ class _RequestState extends State<Request> {
     return Container(
       width: double.infinity,
       child: Container(
-        // requesto3D (2:2212)
         padding: EdgeInsets.fromLTRB(30 * fem, 40 * fem, 35 * fem, 24 * fem),
         width: double.infinity,
         decoration: BoxDecoration(
@@ -30,14 +27,12 @@ class _RequestState extends State<Request> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              // headerVwd (2:2213)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 28 * fem, 33 * fem),
               width: double.infinity,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // backnavsr1V (2:2214)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 57 * fem, 0 * fem),
                     width: 32 * fem,
@@ -49,10 +44,10 @@ class _RequestState extends State<Request> {
                     ),
                   ),
                   Text(
-                    // jLB (2:2218)
                     'Цагийн хүсэлт илгээх  ',
                     style: GoogleFonts.getFont(
                       'Poppins',
+                      decoration: TextDecoration.none,
                       fontSize: 16 * ffem,
                       fontWeight: FontWeight.w700,
                       height: 1.5 * ffem / fem,
@@ -63,7 +58,6 @@ class _RequestState extends State<Request> {
               ),
             ),
             Container(
-              // profilesectionrfh (2:2220)
               margin:
                   EdgeInsets.fromLTRB(13 * fem, 0 * fem, 92 * fem, 37 * fem),
               width: double.infinity,
@@ -72,7 +66,6 @@ class _RequestState extends State<Request> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // latestpicBCB (2:2224)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 15 * fem, 0 * fem),
                     width: 55 * fem,
@@ -84,7 +77,6 @@ class _RequestState extends State<Request> {
                     ),
                   ),
                   Container(
-                    // name7Lj (2:2221)
                     margin:
                         EdgeInsets.fromLTRB(0 * fem, 3 * fem, 0 * fem, 8 * fem),
                     height: double.infinity,
@@ -92,7 +84,6 @@ class _RequestState extends State<Request> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Container(
-                          // rp7 (2:2222)
                           margin: EdgeInsets.fromLTRB(
                               0 * fem, 0 * fem, 0 * fem, 5 * fem),
                           child: Text(
@@ -107,11 +98,11 @@ class _RequestState extends State<Request> {
                           ),
                         ),
                         Text(
-                          // Khh (2:2223)
                           'Дадлагажигч ажилтан',
                           style: GoogleFonts.getFont(
                             'Poppins',
                             fontSize: 12 * ffem,
+                            decoration: TextDecoration.none,
                             fontWeight: FontWeight.w400,
                             height: 1.5 * ffem / fem,
                             color: Color(0xff7b6f72),
@@ -124,7 +115,6 @@ class _RequestState extends State<Request> {
               ),
             ),
             Container(
-              // autogrouptmjtFrF (LQyhyY8gnKNTyWUiEQtMjT)
               margin:
                   EdgeInsets.fromLTRB(17 * fem, 0 * fem, 16.34 * fem, 22 * fem),
               width: double.infinity,
@@ -133,7 +123,6 @@ class _RequestState extends State<Request> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    // autogrouppshoyXM (LQyi7NEyTTCdkKLP1ZPsho)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 47.65 * fem, 0 * fem),
                     width: 226 * fem,
@@ -141,7 +130,6 @@ class _RequestState extends State<Request> {
                     child: Stack(
                       children: [
                         Positioned(
-                          // X35 (2:2271)
                           left: 193 * fem,
                           top: 0 * fem,
                           child: Align(
@@ -152,6 +140,7 @@ class _RequestState extends State<Request> {
                                 'лөв',
                                 style: GoogleFonts.getFont(
                                   'Poppins',
+                                  decoration: TextDecoration.none,
                                   fontSize: 16 * ffem,
                                   fontWeight: FontWeight.w700,
                                   height: 1.5 * ffem / fem,
@@ -162,7 +151,6 @@ class _RequestState extends State<Request> {
                           ),
                         ),
                         Positioned(
-                          // nUo (2:2275)
                           left: 0 * fem,
                           top: 18 * fem,
                           child: Align(
@@ -173,6 +161,7 @@ class _RequestState extends State<Request> {
                                 'Хүсэлтийн төрлөө сонгоно ууХ',
                                 style: GoogleFonts.getFont(
                                   'Poppins',
+                                  decoration: TextDecoration.none,
                                   fontSize: 12 * ffem,
                                   fontWeight: FontWeight.w400,
                                   height: 1.5 * ffem / fem,
@@ -186,7 +175,6 @@ class _RequestState extends State<Request> {
                     ),
                   ),
                   Container(
-                    // iconlylightarrowdown25D1 (2:2272)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0.31 * fem, 0 * fem, 0 * fem),
                     width: 13.01 * fem,
@@ -201,7 +189,6 @@ class _RequestState extends State<Request> {
               ),
             ),
             Container(
-              // autogrouphpn9LPq (LQyiCnFcuHC1K9n61vhpN9)
               margin: EdgeInsets.fromLTRB(
                   12.5 * fem, 0 * fem, 46.5 * fem, 27 * fem),
               padding:
@@ -219,13 +206,13 @@ class _RequestState extends State<Request> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // Psu (2:2277)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 44.5 * fem, 0 * fem),
                     child: Text(
                       'Сонгох         ',
                       style: GoogleFonts.getFont(
                         'Poppins',
+                        decoration: TextDecoration.none,
                         fontSize: 12 * ffem,
                         fontWeight: FontWeight.w400,
                         height: 1.5 * ffem / fem,
@@ -234,7 +221,6 @@ class _RequestState extends State<Request> {
                     ),
                   ),
                   Container(
-                    // iconlylightarrowright2gMD (2:2278)
                     margin:
                         EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 4 * fem),
                     width: 7 * fem,
@@ -249,7 +235,6 @@ class _RequestState extends State<Request> {
               ),
             ),
             Container(
-              // CqM (2:2279)
               margin:
                   EdgeInsets.fromLTRB(0 * fem, 0 * fem, 119 * fem, 27 * fem),
               child: Text(
@@ -257,6 +242,7 @@ class _RequestState extends State<Request> {
                 style: GoogleFonts.getFont(
                   'Poppins',
                   fontSize: 12 * ffem,
+                  decoration: TextDecoration.none,
                   fontWeight: FontWeight.w400,
                   height: 1.5 * ffem / fem,
                   color: Color(0xff000000),
@@ -264,7 +250,6 @@ class _RequestState extends State<Request> {
               ),
             ),
             Container(
-              // autogroupmjv7vWT (LQyiLhC6rsdrgNaaicmjV7)
               margin:
                   EdgeInsets.fromLTRB(12 * fem, 0 * fem, 47 * fem, 27 * fem),
               width: double.infinity,
@@ -272,7 +257,6 @@ class _RequestState extends State<Request> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // autogroupe5j5ehM (LQyiSC2wbAEuqcy7eXe5J5)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 57 * fem, 3 * fem),
                     width: 102 * fem,
@@ -280,7 +264,6 @@ class _RequestState extends State<Request> {
                     child: Stack(
                       children: [
                         Positioned(
-                          // bMh (2:2281)
                           left: 16 * fem,
                           top: 3 * fem,
                           child: Align(
@@ -291,6 +274,7 @@ class _RequestState extends State<Request> {
                                 '2024-02-27',
                                 style: GoogleFonts.getFont(
                                   'Poppins',
+                                  decoration: TextDecoration.none,
                                   fontSize: 12 * ffem,
                                   fontWeight: FontWeight.w400,
                                   height: 1.5 * ffem / fem,
@@ -301,7 +285,6 @@ class _RequestState extends State<Request> {
                           ),
                         ),
                         Positioned(
-                          // rectangle5924trb (2:2282)
                           left: 0 * fem,
                           top: 0 * fem,
                           child: Align(
@@ -321,7 +304,6 @@ class _RequestState extends State<Request> {
                     ),
                   ),
                   Container(
-                    // rectangle59251wD (2:2283)
                     margin:
                         EdgeInsets.fromLTRB(0 * fem, 3 * fem, 0 * fem, 0 * fem),
                     width: 102 * fem,
@@ -335,13 +317,13 @@ class _RequestState extends State<Request> {
               ),
             ),
             Container(
-              // jcK (2:2280)
               margin:
                   EdgeInsets.fromLTRB(0 * fem, 0 * fem, 113 * fem, 292 * fem),
               child: Text(
                 'Дуусах огноо, цаг сонгоно уу',
                 style: GoogleFonts.getFont(
                   'Poppins',
+                  decoration: TextDecoration.none,
                   fontSize: 12 * ffem,
                   fontWeight: FontWeight.w400,
                   height: 1.5 * ffem / fem,
@@ -350,14 +332,12 @@ class _RequestState extends State<Request> {
               ),
             ),
             Container(
-              // autogroupa2dk1Zq (LQyiXBtcch9sSPgh3BA2DK)
               margin: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 0 * fem),
               width: 315 * fem,
               height: 60 * fem,
               child: Stack(
                 children: [
                   Positioned(
-                    // frame78PZ (2:2219)
                     left: 219 * fem,
                     top: 39 * fem,
                     child: Container(
@@ -366,7 +346,6 @@ class _RequestState extends State<Request> {
                     ),
                   ),
                   Positioned(
-                    // buttonqom (2:2273)
                     left: 0 * fem,
                     top: 0 * fem,
                     child: Container(
@@ -398,7 +377,6 @@ class _RequestState extends State<Request> {
                       child: Stack(
                         children: [
                           Positioned(
-                            // buttonEqu (I2:2273;379:5469)
                             left: 68 * fem,
                             top: 18 * fem,
                             child: Align(
@@ -409,6 +387,7 @@ class _RequestState extends State<Request> {
                                   'Цагийн хүсэлт илгээх ',
                                   style: GoogleFonts.getFont(
                                     'Poppins',
+                                    decoration: TextDecoration.none,
                                     fontSize: 16 * ffem,
                                     fontWeight: FontWeight.w700,
                                     height: 1.5 * ffem / fem,
@@ -419,7 +398,6 @@ class _RequestState extends State<Request> {
                             ),
                           ),
                           Positioned(
-                            // vector9xs (2:2274)
                             left: 260 * fem,
                             top: 17 * fem,
                             child: Align(

@@ -46,9 +46,7 @@ class MyApp extends StatelessWidget {
           systemOverlayStyle: SystemUiOverlayStyle.light,
         ),
       ),
-      home:
-          SplashScreen(), // You can change this to your desired initial screen
-      // Add the Google Sign-In button here or wherever it's appropriate in your app
+      home: SplashScreen(), //  initial screen
       // Example:
       // home: Scaffold(
       //   appBar: AppBar(

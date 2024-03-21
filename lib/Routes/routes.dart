@@ -1,4 +1,4 @@
-import 'dart:html';
+//import 'dart:html';
 
 import 'package:get/get.dart';
 import 'package:time_tracking_system/Screens/Auth/email_address.dart';
@@ -8,7 +8,6 @@ import 'package:time_tracking_system/Screens/TimeRequest/request.dart';
 import 'package:time_tracking_system/Screens/Timetracking/confirm.dart';
 import 'package:time_tracking_system/Screens/Timetracking/take-photo.dart';
 import 'package:time_tracking_system/Screens/splash_screen.dart';
-import 'package:time_tracking_system/Screens/Notification/notification.dart';
 
 class AppRoutes {
   static const String splashScreen = '/splash_screen';

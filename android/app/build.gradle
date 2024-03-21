@@ -22,7 +22,7 @@ if (flutterVersionName == null) {
 }
 
 buildscript {
-    ext.kotlin_version = '1.5.31'
+    ext.kotlin_version = '1.7.10'
     repositories {
         google()
         mavenCentral()

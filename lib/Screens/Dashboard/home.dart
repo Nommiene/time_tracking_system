@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:time_tracking_system/Screens/Profile/profile.dart';
 //import 'package:time_tracking_system/Screens/Dashboard/notifications.dart';
 //import 'package:time_tracking_system/Screens/TimeRequest/Timetracking/face_id.dart';
 import 'package:time_tracking_system/Screens/TimeRequest/request.dart';
-import 'package:time_tracking_system/Screens/Timetracking/attendancescreen.dart';
 import 'package:time_tracking_system/Screens/Timetracking/face_id.dart';
 import 'package:time_tracking_system/Values/values.dart';
 import 'package:time_tracking_system/Screens/Notification/notification.dart';
@@ -1553,7 +1553,7 @@ class _SceneState extends State<Scene> {
               child: Container(
                 width: Utils.screenWidth,
                 height: 90 * fem,
-                color: Colors.white, // Background color of the bottom navbar
+                color: Colors.white,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
@@ -1575,7 +1575,9 @@ class _SceneState extends State<Scene> {
                     IconButton(
                       icon: Icon(Icons.person),
                       iconSize: 12,
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.to(() => Profile());
+                      },
                     ),
                   ],
                 ),

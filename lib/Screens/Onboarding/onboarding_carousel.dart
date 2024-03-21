@@ -3,8 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:time_tracking_system/Screens/Auth/email_address.dart';
-import 'package:time_tracking_system/Screens/Dashboard/home.dart';
-import 'package:time_tracking_system/Screens/Dashboard/timeline.dart';
 import 'package:time_tracking_system/Values/values.dart';
 import 'package:time_tracking_system/widgets/DarkBackground/darkRadialBackground.dart';
 import 'package:time_tracking_system/widgets/Onboarding/image_outlined_button.dart';

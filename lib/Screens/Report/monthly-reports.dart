@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
 import 'dart:ui';
-import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 //import 'package:myapp/utils.dart';
 
@@ -19,7 +17,6 @@ class _ReportState extends State<Report> {
     return Container(
       width: double.infinity,
       child: Container(
-        // monthlyreportsd7d (3:2399)
         width: double.infinity,
         decoration: BoxDecoration(
           color: Color(0xffffffff),
@@ -29,7 +26,6 @@ class _ReportState extends State<Report> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              // autogroupnfzvies (LQymNwTmKsSL9xnx9xnFzV)
               padding:
                   EdgeInsets.fromLTRB(21 * fem, 48 * fem, 21 * fem, 88 * fem),
               width: double.infinity,
@@ -37,7 +33,6 @@ class _ReportState extends State<Report> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // header4Cw (4:2401)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 112 * fem, 63 * fem),
                     width: double.infinity,
@@ -45,7 +40,6 @@ class _ReportState extends State<Report> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // backnavsbyZ (4:2402)
                           margin: EdgeInsets.fromLTRB(
                               0 * fem, 0 * fem, 57 * fem, 0 * fem),
                           width: 32 * fem,
@@ -57,7 +51,6 @@ class _ReportState extends State<Report> {
                           ),
                         ),
                         Text(
-                          // WKq (4:2406)
                           'Ирцийн тайлан ',
                           style: GoogleFonts.getFont(
                             'Poppins',
@@ -71,7 +64,6 @@ class _ReportState extends State<Report> {
                     ),
                   ),
                   Container(
-                    // autogroupgpvmctf (LQykWTusMncebmxEiEGPvM)
                     margin: EdgeInsets.fromLTRB(
                         29 * fem, 0 * fem, 32 * fem, 0 * fem),
                     width: double.infinity,
@@ -80,13 +72,11 @@ class _ReportState extends State<Report> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // autogroupfr3fMbM (LQykkYLkKLb1sYhsjBfr3F)
                           width: 76 * fem,
                           height: double.infinity,
                           child: Stack(
                             children: [
                               Positioned(
-                                // rectangle5926gNj (4:2407)
                                 left: 3 * fem,
                                 top: 0 * fem,
                                 child: Align(
@@ -105,7 +95,6 @@ class _ReportState extends State<Report> {
                                 ),
                               ),
                               Positioned(
-                                // ZSX (4:2417)
                                 left: 5 * fem,
                                 top: 14 * fem,
                                 child: Align(
@@ -117,6 +106,7 @@ class _ReportState extends State<Report> {
                                       textAlign: TextAlign.right,
                                       style: GoogleFonts.getFont(
                                         'Poppins',
+                                        decoration: TextDecoration.none,
                                         fontSize: 10 * ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.5 * ffem / fem,
@@ -127,7 +117,6 @@ class _ReportState extends State<Report> {
                                 ),
                               ),
                               Positioned(
-                                // SmD (4:2422)
                                 left: 0 * fem,
                                 top: 67 * fem,
                                 child: Align(
@@ -139,6 +128,7 @@ class _ReportState extends State<Report> {
                                       textAlign: TextAlign.right,
                                       style: GoogleFonts.getFont(
                                         'Poppins',
+                                        decoration: TextDecoration.none,
                                         fontSize: 8 * ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.875 * ffem / fem,
@@ -149,7 +139,6 @@ class _ReportState extends State<Report> {
                                 ),
                               ),
                               Positioned(
-                                // xDm (4:2420)
                                 left: 29 * fem,
                                 top: 34 * fem,
                                 child: Align(
@@ -171,7 +160,6 @@ class _ReportState extends State<Report> {
                                 ),
                               ),
                               Positioned(
-                                // line65esH (4:2421)
                                 left: 5 * fem,
                                 top: 55 * fem,
                                 child: Align(
@@ -187,7 +175,6 @@ class _ReportState extends State<Report> {
                                 ),
                               ),
                               Positioned(
-                                // xd5 (4:2423)
                                 left: 33 * fem,
                                 top: 88 * fem,
                                 child: Align(
@@ -199,6 +186,7 @@ class _ReportState extends State<Report> {
                                       textAlign: TextAlign.right,
                                       style: GoogleFonts.getFont(
                                         'Poppins',
+                                        decoration: TextDecoration.none,
                                         fontSize: 12 * ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.25 * ffem / fem,
@@ -215,7 +203,6 @@ class _ReportState extends State<Report> {
                           width: 30 * fem,
                         ),
                         Container(
-                          // autogroupnwqpRWf (LQykuxEjPC79vCXF3fnwqP)
                           padding: EdgeInsets.fromLTRB(
                               5 * fem, 14 * fem, 10 * fem, 14 * fem),
                           height: double.infinity,
@@ -228,6 +215,7 @@ class _ReportState extends State<Report> {
                             textAlign: TextAlign.right,
                             style: GoogleFonts.getFont(
                               'Poppins',
+                              decoration: TextDecoration.none,
                               fontSize: 10 * ffem,
                               fontWeight: FontWeight.w400,
                               height: 1.5 * ffem / fem,
@@ -239,7 +227,6 @@ class _ReportState extends State<Report> {
                           width: 30 * fem,
                         ),
                         Container(
-                          // autogroupvuxk5LK (LQykyhdV9qnscn4Rb9vuXK)
                           padding: EdgeInsets.fromLTRB(
                               10 * fem, 14 * fem, 12 * fem, 14 * fem),
                           height: double.infinity,
@@ -252,6 +239,7 @@ class _ReportState extends State<Report> {
                             textAlign: TextAlign.right,
                             style: GoogleFonts.getFont(
                               'Poppins',
+                              decoration: TextDecoration.none,
                               fontSize: 10 * ffem,
                               fontWeight: FontWeight.w400,
                               height: 1.5 * ffem / fem,
@@ -266,7 +254,6 @@ class _ReportState extends State<Report> {
               ),
             ),
             Container(
-              // autogroupyxkvAcf (LQymDH5CQe59L5974qyxkV)
               width: double.infinity,
               height: 823 * fem,
               decoration: BoxDecoration(
@@ -276,7 +263,6 @@ class _ReportState extends State<Report> {
               child: Stack(
                 children: [
                   Positioned(
-                    // rectangle5930JTy (4:2411)
                     left: 0 * fem,
                     top: 38 * fem,
                     child: Align(
@@ -292,7 +278,6 @@ class _ReportState extends State<Report> {
                     ),
                   ),
                   Positioned(
-                    // SKH (4:2412)
                     left: 18 * fem,
                     top: 47 * fem,
                     child: Align(
@@ -304,6 +289,7 @@ class _ReportState extends State<Report> {
                           textAlign: TextAlign.right,
                           style: GoogleFonts.getFont(
                             'Poppins',
+                            decoration: TextDecoration.none,
                             fontSize: 11 * ffem,
                             fontWeight: FontWeight.w400,
                             height: 1.3636363636 * ffem / fem,
@@ -314,7 +300,6 @@ class _ReportState extends State<Report> {
                     ),
                   ),
                   Positioned(
-                    // w19 (4:2413)
                     left: 98 * fem,
                     top: 47 * fem,
                     child: Align(
@@ -326,6 +311,7 @@ class _ReportState extends State<Report> {
                           textAlign: TextAlign.right,
                           style: GoogleFonts.getFont(
                             'Poppins',
+                            decoration: TextDecoration.none,
                             fontSize: 11 * ffem,
                             fontWeight: FontWeight.w400,
                             height: 1.3636363636 * ffem / fem,
@@ -336,7 +322,6 @@ class _ReportState extends State<Report> {
                     ),
                   ),
                   Positioned(
-                    // 2YP (4:2414)
                     left: 158 * fem,
                     top: 47 * fem,
                     child: Align(
@@ -348,6 +333,7 @@ class _ReportState extends State<Report> {
                           textAlign: TextAlign.right,
                           style: GoogleFonts.getFont(
                             'Poppins',
+                            decoration: TextDecoration.none,
                             fontSize: 11 * ffem,
                             fontWeight: FontWeight.w400,
                             height: 1.3636363636 * ffem / fem,
@@ -358,7 +344,6 @@ class _ReportState extends State<Report> {
                     ),
                   ),
                   Positioned(
-                    // u6P (4:2415)
                     left: 232 * fem,
                     top: 47 * fem,
                     child: Align(
@@ -370,6 +355,7 @@ class _ReportState extends State<Report> {
                           textAlign: TextAlign.right,
                           style: GoogleFonts.getFont(
                             'Poppins',
+                            decoration: TextDecoration.none,
                             fontSize: 11 * ffem,
                             fontWeight: FontWeight.w400,
                             height: 1.3636363636 * ffem / fem,
@@ -380,7 +366,6 @@ class _ReportState extends State<Report> {
                     ),
                   ),
                   Positioned(
-                    // yrw (4:2416)
                     left: 304 * fem,
                     top: 47 * fem,
                     child: Align(
@@ -392,6 +377,7 @@ class _ReportState extends State<Report> {
                           textAlign: TextAlign.right,
                           style: GoogleFonts.getFont(
                             'Poppins',
+                            decoration: TextDecoration.none,
                             fontSize: 11 * ffem,
                             fontWeight: FontWeight.w400,
                             height: 1.3636363636 * ffem / fem,

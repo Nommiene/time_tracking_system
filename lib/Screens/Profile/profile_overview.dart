@@ -10,8 +10,6 @@ import 'package:time_tracking_system/widgets/Profile/text_outlined_button.dart';
 import 'package:time_tracking_system/widgets/container_label.dart';
 import 'package:time_tracking_system/widgets/dummy/profile_dummy.dart';
 
-import 'profile_notification_settings.dart';
-
 class ProfileOverview extends StatelessWidget {
   const ProfileOverview({Key? key}) : super(key: key);
 
@@ -101,9 +99,7 @@ class ProfileOverview extends StatelessWidget {
             AppSpaces.verticalSpace10,
             BadgedContainer(
               label: "Мэдэгдэл хүлээн авах",
-              callback: () {
-                Get.to(() => ProfileNotificationSettings());
-              },
+              callback: () {},
               value: "Off",
               badgeColor: "FDA5FF",
             ),
