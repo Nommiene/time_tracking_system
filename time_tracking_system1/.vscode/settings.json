@@ -1,0 +1,5 @@
+{
+    "git.ignoreLimitWarning": true,
+    "cmake.sourceDirectory": "C:/EmployeeTimeTracking/time_tracking_system1/build/windows/x64/extracted/firebase_cpp_sdk_windows",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

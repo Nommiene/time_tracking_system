@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "665929694740",
+    "project_id": "timetracker-fbb10",
+    "storage_bucket": "timetracker-fbb10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665929694740:android:37f8b741648d01dbe67101",
+        "android_client_info": {
+          "package_name": "com.example.time_tracking_system1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665929694740-f9fu6tdj7jkikpaj5qk4ohk86ahlbuvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArob4Qzu4DzmoRswJbUWAKIkIi-4uG-v8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665929694740-f9fu6tdj7jkikpaj5qk4ohk86ahlbuvp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665929694740-bbdsqmbm4h5pbfgpsj4hhq8vt5b24n60.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.timeTrackingSystem1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
